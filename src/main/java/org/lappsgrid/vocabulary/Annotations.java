@@ -31,25 +31,25 @@ public final class Annotations
 
    }
 
-   public static final String SENTENCE = "Sentence";
-   public static final String TOKEN = "Token";
-   public static final String NE = "NamedEntity";
-   public static final String NE_PERSON = "Person";
-   public static final String NE_LOCATION = "Location";
-   public static final String NE_ORG = "Organization";
-   public static final String PART_OF_SPEECH = "pos";
-   public static final String NOMINAL_COREFERENCE = "alias";
-   public static final String PRONOMINAL_CORREFERNCE = "coref";
-   public static final String LOOKUP = "Lookup";
-   public static final String NCHUNK = "NounChunk";
-   public static final String VCHUNK = "VerbChunk";
+   public static final String SENTENCE = "http://vocab.lappsgrid.org/Sentence";
+   public static final String TOKEN = "http://vocab.lappsgrid.org/Token";
+   public static final String NE = "http://vocab.lappsgrid.org/NamedEntity";
+   public static final String PERSON = "http://vocab.lappsgrid.org/Person";
+   public static final String LOCATION = "http://vocab.lappsgrid.org/Location";
+   public static final String ORGANIZATION = "http://vocab.lappsgrid.org/Organization";
+   public static final String PART_OF_SPEECH = "http://vocab.lappsgrid.org/Token#pos";
+   public static final String NOMINAL_COREFERENCE = "http://vocab.lappsgrid.org/alias";
+   public static final String PRONOMINAL_CORREFERNCE = "http://vocab.lappsgrid.org/coref";
+   public static final String LOOKUP = "http://vocab.lappsgrid.org/Lookup";
+   public static final String NCHUNK = "http://vocab.lappsgrid.org/NounChunk";
+   public static final String VCHUNK = "http://vocab.lappsgrid.org/VerbChunk";
 
    static {
       index.put("s", SENTENCE);
       index.put("sent", SENTENCE);
       index.put("tok", TOKEN);
       index.put("word", TOKEN);
-      index.put("organization", NE_ORG);
+      index.put("organization", ORGANIZATION);
    }
 
 

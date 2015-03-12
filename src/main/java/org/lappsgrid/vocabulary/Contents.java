@@ -41,6 +41,7 @@ public final class Contents
       public static final String STANFORD = "tokenization:stanford";
       public static final String OPENNLP = "tokenization:opennlp";
       public static final String LINGPIPE = "tokenization:lingpipe";
+		public static final String WHITESPACE = "tokenization:whitespace";
    }
 
    public static class Chunks
