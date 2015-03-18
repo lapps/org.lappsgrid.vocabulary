@@ -26,9 +26,6 @@ public final class Metadata
 
    }
 
-//   public static final String PRODUCED_BY = "producedBy";
-//   public static final String CONTAINS = "contains";
-
    public static class Contains
    {
       public static final String URL = "url";
