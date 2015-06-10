@@ -18,6 +18,7 @@ package org.lappsgrid.vocabulary;
 
 import java.util.HashMap;
 import java.util.Map;
+import org.lappsgrid.discriminator.Discriminators.Uri;
 
 /**
  * @author Keith Suderman
@@ -31,18 +32,18 @@ public final class Annotations
 
    }
 
-   public static final String SENTENCE = "http://vocab.lappsgrid.org/Sentence";
-   public static final String TOKEN = "http://vocab.lappsgrid.org/Token";
-   public static final String NE = "http://vocab.lappsgrid.org/NamedEntity";
-   public static final String PERSON = "http://vocab.lappsgrid.org/Person";
-   public static final String LOCATION = "http://vocab.lappsgrid.org/Location";
-   public static final String ORGANIZATION = "http://vocab.lappsgrid.org/Organization";
-   public static final String PART_OF_SPEECH = "http://vocab.lappsgrid.org/Token#pos";
+   public static final String SENTENCE = Uri.SENTENCE; //"http://vocab.lappsgrid.org/Sentence";
+   public static final String TOKEN = Uri.TOKEN; // "http://vocab.lappsgrid.org/Token";
+   public static final String NE = Uri.NE; // "http://vocab.lappsgrid.org/NamedEntity";
+   public static final String PERSON = Uri.PERSON; //"http://vocab.lappsgrid.org/Person";
+   public static final String LOCATION = Uri.LOCATION; // "http://vocab.lappsgrid.org/Location";
+   public static final String ORGANIZATION = Uri.ORGANIZATION; // "http://vocab.lappsgrid.org/Organization";
+   public static final String PART_OF_SPEECH = Uri.POS; //"http://vocab.lappsgrid.org/Token#pos";
    public static final String NOMINAL_COREFERENCE = "http://vocab.lappsgrid.org/alias";
    public static final String PRONOMINAL_CORREFERNCE = "http://vocab.lappsgrid.org/coref";
    public static final String LOOKUP = "http://vocab.lappsgrid.org/Lookup";
-   public static final String NCHUNK = "http://vocab.lappsgrid.org/NounChunk";
-   public static final String VCHUNK = "http://vocab.lappsgrid.org/VerbChunk";
+   public static final String NCHUNK = Uri.NCHUNK; //"http://vocab.lappsgrid.org/NounChunk";
+   public static final String VCHUNK = Uri.VCHUNK; // "http://vocab.lappsgrid.org/VerbChunk";
 
    static {
       index.put("s", SENTENCE);
