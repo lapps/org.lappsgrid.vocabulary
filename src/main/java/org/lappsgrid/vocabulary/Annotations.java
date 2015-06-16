@@ -21,6 +21,8 @@ import java.util.Map;
 import org.lappsgrid.discriminator.Discriminators.Uri;
 
 /**
+ * The URI for the most commonly used annotation types.
+ *
  * @author Keith Suderman
  */
 public final class Annotations

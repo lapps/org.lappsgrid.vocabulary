@@ -17,7 +17,7 @@
 package org.lappsgrid.vocabulary;
 
 /**
- * Values set in the <em>contains</em> section of a <em>ProcessingStep</em>'s
+ * Values set in the <em>contains</em> section of a {@code View}'s
  * <em>metadata</em>.
  *
  * @author Keith Suderman
