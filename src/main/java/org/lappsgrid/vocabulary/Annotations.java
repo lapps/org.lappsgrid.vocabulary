@@ -23,8 +23,10 @@ import org.lappsgrid.discriminator.Discriminators.Uri;
 /**
  * The URI for the most commonly used annotation types.
  *
+ * @deprecated Use the org.lappsgrid.discriminator.Discriminators.Uri class instead.
  * @author Keith Suderman
  */
+@Deprecated
 public final class Annotations
 {
    protected static final Map<String,String> index = new HashMap<String, String>();
