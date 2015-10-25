@@ -8,7 +8,7 @@
 
 package org.lappsgrid.vocabulary;
 
-class Features {
+public class Features {
    private Features() { }
 
    public static class Thing {
