@@ -8,7 +8,7 @@
 
 package org.lappsgrid.vocabulary;
 
-public class Features {
+class Features {
    private Features() { }
 
    public static class Thing {
@@ -40,6 +40,7 @@ public class Features {
    }
 
    public static class NamedEntity extends Span {
+      public static final String CATEGORY = "category";
    }
 
    public static class Date extends NamedEntity {
@@ -59,11 +60,13 @@ public class Features {
    }
 
    public static class Token extends Span {
+      public static final String PART_OF_SPEECH = "pos";
       public static final String POS = "pos";
       public static final String LEMMA = "lemma";
       public static final String TYPE = "tokenType";
       public static final String ORTH = "orth";
       public static final String LENGTH = "length";
+      public static final String WORD = "word";
    }
 
    public static class Coreference extends Annotation {
@@ -90,6 +93,7 @@ public class Features {
    }
 
    public static class Dependency extends Annotation {
+      public static final String LABEL = "label";
       public static final String GOVERNOR = "governor";
       public static final String DEPENDENT = "dependent";
    }
