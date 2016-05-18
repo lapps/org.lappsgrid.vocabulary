@@ -1,4 +1,4 @@
-package org.lappsgrid.discrimintor;
+package org.lappsgrid.vocabulary;
 
 
 /*
@@ -11,10 +11,10 @@ package org.lappsgrid.discrimintor;
 /**
  * The URI for the most commonly used annotation types.
  *
- * @deprecated Use the org.lappsgrid.discriminator.Discriminators.Uri class instead.
+ * @deeprecated Use the org.lappsgrid.discriminator.Discriminators.Uri class instead.
  * @author Keith Suderman
  */
-@Deprecated
+//@Deprecated
 public class Annotations {
    private Annotations() { }
 
