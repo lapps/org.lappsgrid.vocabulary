@@ -23,7 +23,7 @@ public class PublicTests
 		// The classes may not be public due to copy/paste errors when the
 		// classes are updated (semi-)automatically
 		String s = Features.Token.POS;
-		s = Annotations.Token;
+		s = Annotations.TOKEN;
 		s = Contents.TagSets.GATE;
 		s = Metadata.Contains.PRODUCER;
 	}
