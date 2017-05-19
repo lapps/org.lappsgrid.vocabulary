@@ -3,6 +3,11 @@ org.lappsgrid.vocabulary
 
 Vocabulary used for LAPPS annotations, features, and metadata
 
+### Build Status
+
+[![Master Status](http://grid.anc.org:9080/travis/svg/lapps/org.lappsgrid.vocabulary?branch=master)](https://travis-ci.org/lapps/org.lappsgrid.discriminator)
+[![Develop Status](http://grid.anc.org:9080/travis/svg/lapps/org.lappsgrid.vocabulary?branch=develop)](https://travis-ci.org/lapps/org.lappsgrid.discriminator)
+
 ## Maven
 
 ```xml
