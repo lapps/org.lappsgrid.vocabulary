@@ -3,13 +3,20 @@ org.lappsgrid.vocabulary
 
 Vocabulary used for LAPPS annotations, features, and metadata
 
-## Maven
+### Build
+
+[![Master Status](http://grid.anc.org:9080/travis/svg/lapps/org.lappsgrid.vocabulary?branch=master)](https://travis-ci.org/lapps/org.lappsgrid.vocabulary)
+[![Develop Status](http://grid.anc.org:9080/travis/svg/lapps/org.lappsgrid.vocabulary?branch=develop)](https://travis-ci.org/lapps/org.lappsgrid.vocabulary)
+
+### Maven
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.lappsgrid/vocabulary/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/org.lappsgrid/vocabulary)
 
 ```xml
 <dependency>
     <groupId>org.lappsgrid</groupId>
     <artifactId>vocabulary</artifactId>
-    <version>2.0.0</version>
+    <version>2.3.1</version>
 </dependency>    
 ```
 
