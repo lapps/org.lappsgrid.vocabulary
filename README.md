@@ -3,7 +3,7 @@ org.lappsgrid.vocabulary
 
 Vocabulary used for LAPPS annotations, features, and metadata
 
-### Build
+### Build Status
 
 [![Master Status](http://grid.anc.org:9080/travis/svg/lapps/org.lappsgrid.vocabulary?branch=master)](https://travis-ci.org/lapps/org.lappsgrid.vocabulary)
 [![Develop Status](http://grid.anc.org:9080/travis/svg/lapps/org.lappsgrid.vocabulary?branch=develop)](https://travis-ci.org/lapps/org.lappsgrid.vocabulary)
