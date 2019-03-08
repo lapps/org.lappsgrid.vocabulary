@@ -84,6 +84,7 @@ public class Features {
 		public static final String LEMMA = "lemma";
 		public static final String TYPE = "tokenType";
 		public static final String ORTH = "orth";
+		public static final String MORPH = "morph";
 		public static final String LENGTH = "length";
 		public static final String WORD = "word";
 	}
