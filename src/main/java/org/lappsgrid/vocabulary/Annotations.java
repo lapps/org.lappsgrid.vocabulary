@@ -51,5 +51,9 @@ public class Annotations {
 	public static final String TEXT_DOCUMENT = "http://vocab.lappsgrid.org/TextDocument";
 	public static final String THING = "http://vocab.lappsgrid.org/Thing";
 	public static final String TOKEN = "http://vocab.lappsgrid.org/Token";
+	public static final String TOKEN#LEMMA = "http://vocab.lappsgrid.org/Token#lemma";
+	public static final String TOKEN#MORPH = "http://vocab.lappsgrid.org/Token#morph";
+	public static final String TOKEN#ORTH = "http://vocab.lappsgrid.org/Token#orth";
+	public static final String TOKEN#POS = "http://vocab.lappsgrid.org/Token#pos";
 	public static final String VERB_CHUNK = "http://vocab.lappsgrid.org/VerbChunk";
 }
