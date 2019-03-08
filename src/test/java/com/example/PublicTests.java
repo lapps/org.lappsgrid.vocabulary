@@ -17,7 +17,7 @@ public class PublicTests
 
 	}
 
-	@Ignore
+	@Test
 	public void visibilityTest()
 	{
 		// These shouldn't even compile if the visibility is not public.
@@ -26,6 +26,6 @@ public class PublicTests
 		String s = Features.Token.POS;
 		s = Annotations.TOKEN;
 		s = Contents.TagSets.GATE;
-		s = Metadata.Contains.PRODUCER;
+		s = Metadata.Token.POS_TAG_SET;
 	}
 }
