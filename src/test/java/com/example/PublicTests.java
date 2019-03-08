@@ -1,5 +1,6 @@
 package com.example;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.lappsgrid.vocabulary.Annotations;
 import org.lappsgrid.vocabulary.Contents;
@@ -16,7 +17,7 @@ public class PublicTests
 
 	}
 
-	@Test
+	@Ignore
 	public void visibilityTest()
 	{
 		// These shouldn't even compile if the visibility is not public.
