@@ -4,6 +4,9 @@
  * This file is machine generated and any edits will be lost the next
  * time the file is generated. Use the https://github.com/lapps/vocabulary-pages
  * project to make changes.
+ *
+ * Vocabulary v1.3.0-SNAPSHOT
+ * Copyright 2019 The Language Applications Grid. 
  */
 
 package org.lappsgrid.vocabulary;
@@ -46,6 +49,9 @@ public class Metadata {
 
 	public static class NamedEntity extends Region {
 		public static final String NAMED_ENTITY_CATEGORY_SET = "namedEntityCategorySet";
+	}
+
+	public static class Morphology extends Region {
 	}
 
 	public static class Date extends NamedEntity {

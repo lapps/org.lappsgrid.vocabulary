@@ -5,6 +5,9 @@
  * This file is machine generated and any edits will be lost the next
  * time the file is generated. Use the https://github.com/lapps/vocabulary-pages
  * project to make changes.
+ *
+ * Vocabulary v1.3.0-SNAPSHOT
+ * Copyright 2019 The Language Applications Grid. 
  */
 package org.lappsgrid.vocabulary;
 
@@ -30,6 +33,7 @@ public class Annotations {
 	@Deprecated
 	public static final String LOCATION = "http://vocab.lappsgrid.org/Location";
 	public static final String MARKABLE = "http://vocab.lappsgrid.org/Markable";
+	public static final String MORPHOLOGY = "http://vocab.lappsgrid.org/Morphology";
 	public static final String NAMED_ENTITY = "http://vocab.lappsgrid.org/NamedEntity";
 	public static final String NOUN_CHUNK = "http://vocab.lappsgrid.org/NounChunk";
 	/**
