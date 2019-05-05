@@ -65,26 +65,6 @@ public class Features {
 		public static final String GENDER = "gender";
 	}
 
-	public static class Morphology extends Region {
-		public static final String WORD_CLASS = "wordClass";
-		public static final String MAJOR_WORD_CLASS = "majorWordClass";
-		public static final String GENDER = "gender";
-		public static final String NUMBER = "number";
-		public static final String CASE = "case";
-		public static final String DEGREE = "degree";
-		public static final String VERB_FORM = "verbForm";
-		public static final String TENSE = "tense";
-		public static final String MOOD = "mood";
-		public static final String VOICE = "voice";
-		public static final String DEFINITENESS = "definiteness";
-		public static final String VALUE = "value";
-		public static final String PERSON = "person";
-		public static final String ASPECT = "aspect";
-		public static final String SYNTAX = "syntax";
-		public static final String PREFIX = "prefix";
-		public static final String SUFFIX = "suffix";
-	}
-
 	public static class Date extends NamedEntity {
 		public static final String TYPE = "dateType";
 	}
@@ -112,12 +92,52 @@ public class Features {
 		public static final String WORD = "word";
 	}
 
+	public static class Event extends Region {
+		public static final String EVENT_CLASS = "eventClass";
+	}
+
+	public static class TimeExpression extends Region {
+		public static final String TYPE = "type";
+		public static final String VALUE = "value";
+	}
+
 	public static class Coreference extends Annotation {
 		public static final String MENTIONS = "mentions";
 		public static final String REPRESENTATIVE = "representative";
 	}
 
 	public static class Markable extends Region {
+	}
+
+	public static class Morphology extends Region {
+		public static final String MORPHEMES = "morphemes";
+		public static final String WORD_CLASS = "wordClass";
+		public static final String MAJOR_WORD_CLASS = "majorWordClass";
+		public static final String GENDER = "gender";
+		public static final String NUMBER = "number";
+		public static final String CASE = "case";
+		public static final String DEGREE = "degree";
+		public static final String VERB_FORM = "verbForm";
+		public static final String TENSE = "tense";
+		public static final String MOOD = "mood";
+		public static final String VOICE = "voice";
+		public static final String DEFINITENESS = "definiteness";
+		public static final String VALUE = "value";
+		public static final String PERSON = "person";
+		public static final String ASPECT = "aspect";
+		public static final String SYNTAX = "syntax";
+		public static final String PREFIX = "prefix";
+		public static final String SUFFIX = "suffix";
+	}
+
+	public static class Morpheme extends Region {
+		public static final String MORPH = "morph";
+	}
+
+	public static class SemanticTag extends Region {
+		public static final String TAGS = "tags";
+		public static final String MWE = "mwe";
+		public static final String TYPE = "type";
 	}
 
 	public static class PhraseStructure extends Annotation {

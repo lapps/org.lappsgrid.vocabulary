@@ -51,9 +51,6 @@ public class Metadata {
 		public static final String NAMED_ENTITY_CATEGORY_SET = "namedEntityCategorySet";
 	}
 
-	public static class Morphology extends Region {
-	}
-
 	public static class Date extends NamedEntity {
 	}
 
@@ -70,10 +67,27 @@ public class Metadata {
 		public static final String POS_TAG_SET = "posTagSet";
 	}
 
+	public static class Event extends Region {
+		public static final String EVENT_CLASS_SET = "eventClassSet";
+	}
+
+	public static class TimeExpression extends Region {
+	}
+
 	public static class Coreference extends Annotation {
 	}
 
 	public static class Markable extends Region {
+	}
+
+	public static class Morphology extends Region {
+	}
+
+	public static class Morpheme extends Region {
+	}
+
+	public static class SemanticTag extends Region {
+		public static final String TAG_SET = "tagSet";
 	}
 
 	public static class PhraseStructure extends Annotation {
