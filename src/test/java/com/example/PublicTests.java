@@ -1,5 +1,6 @@
 package com.example;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.lappsgrid.vocabulary.Annotations;
 import org.lappsgrid.vocabulary.Contents;
@@ -25,6 +26,6 @@ public class PublicTests
 		String s = Features.Token.POS;
 		s = Annotations.TOKEN;
 		s = Contents.TagSets.GATE;
-		s = Metadata.Contains.PRODUCER;
+		s = Metadata.Token.POS_TAG_SET;
 	}
 }

@@ -16,7 +16,7 @@ Vocabulary used for LAPPS annotations, features, and metadata
 <dependency>
     <groupId>org.lappsgrid</groupId>
     <artifactId>vocabulary</artifactId>
-    <version>2.3.1</version>
+    <version>${see.above}</version>
 </dependency>    
 ```
 
